@@ -1,0 +1,71 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Bhawani Singh
+email:
+description: Personal Blog
+url: https://bhawanisingh.io # the base hostname & protocol for your site
+keywords: ["blog", "bhawani singh", "bhawanisingh", "xero"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Asia/Kolkata
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Bhawani Singh
+  avatar: leonids-logo.png
+  job: "A jekyll theme"
+  bio: "Software Developer"
+  email:
+  disqus-shortname:
+  twitter: bhawani2k13
+  facebook: bhawani2k13
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: BhawaniSingh
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  skype: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: #username

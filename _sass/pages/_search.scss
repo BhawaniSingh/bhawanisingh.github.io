@@ -1,0 +1,30 @@
+.page-header {
+    margin: 0 auto 0px !important;
+    h2 {
+        margin: 0px auto;
+    }
+}
+.search-box {
+    margin: 15px auto;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08);
+    transition: box-shadow .2s cubic-bezier(.4, 0, .2, 1);
+    outline: none;
+    border-radius: 2px;
+    input[type="text"] {
+        font-size: 14px;
+        height: 49px;
+        border: none;
+        width: calc(100% - 35px);
+        padding-left: 10px;
+        position: relative; 
+    }
+    &:before {
+        font-family: 'FontAwesome';
+        color:#8f8787;
+        position: relative;
+        float: right;
+        right: 15px;
+        padding-top: 15px;
+        content: "\f002";
+    }
+}
